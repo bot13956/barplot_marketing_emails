@@ -6,8 +6,8 @@ Author: Benjamin O. Tayo
 
 Date: 11/24/2018
 
-advert.csv: The data set obtained from collecting emails in my inbox from July to black friday
+marketing_emails.csv: The data set obtained from collecting emails in my inbox from July to black friday
 
-advert.R: R code to general barplots for visualization
+marketing_emails.R: R code to general barplots for visualization
 
-advert.pdf: Output after running R code
+marketing_emails.pdf: Output after running R code
