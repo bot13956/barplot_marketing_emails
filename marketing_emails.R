@@ -23,7 +23,7 @@ df2%>%head(n=10)
 df2%>%ggplot(aes(digit,quantity,fill=type))+geom_col(position = "dodge", width = 0.75)+
   xlab("month")+ ylab("quantity")+
   scale_x_continuous(breaks = as.integer(seq(1,5)), labels = c('Jul','Aug','Sep','Oct','Nov'))+
-  ggtitle("quantity of marketing emails from BBY, WGN, & WMT")+theme_classic()+
+  ggtitle("quantity of marketing emails from BBY, WGN, & WMT in 2018")+theme_classic()+
   theme(
     plot.title = element_text(color="black", size=11, hjust=0.5, face="bold"),
     axis.title.x = element_text(color="black", size=11, face="bold"),
