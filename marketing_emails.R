@@ -11,7 +11,7 @@ library(tidyverse)
 
 # Data Importation and Preparation
 
-df<-read.csv("advert.csv")
+df<-read.csv("marketing_emails.csv")
 df<-df%>%mutate(digit = seq(5,1,-1))
 df%>%head()
 df2<-data.frame(digit=c(df$digit,df$digit,df$digit),type=sort(as.vector(replicate(5,c("BBY","WGN","WMT")))), 
