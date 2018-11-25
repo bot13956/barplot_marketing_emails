@@ -1,6 +1,6 @@
 # barplot_marketing_emails
 
-Code to produce visualization of arketing mails from Best Buy, Walgreens, & Walmart
+Code to produce visualization of personal marketing mails from Best Buy, Walgreens, & Walmart over a 5-month period
 
 Author: Benjamin O. Tayo
 
